@@ -14,7 +14,7 @@ st.write('Please input the following parameters')
 #input form
 
 age = st.number_input('Age',value=0)
-sex = st.number_input('Sex',value=0)
+sex = st.number_input('Sex',st.selectbox("Sex:", [0, 1]))
 cp = st.number_input('CP',value=0)
 trestbps = st.number_input('Trestbps',value=0)
 chol = st.number_input('Chol',value=0)
